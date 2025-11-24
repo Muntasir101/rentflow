@@ -1,0 +1,88 @@
+/* [project]/app/components/ui/Modal.module.css [app-client] (css) */
+.Modal-module__AITaea__overlay {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  z-index: 1000;
+  background-color: #0009;
+  justify-content: center;
+  align-items: center;
+  animation: .2s Modal-module__AITaea__fadeIn;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.Modal-module__AITaea__modal {
+  border-radius: var(--radius-xl);
+  width: 100%;
+  max-width: 540px;
+  max-height: 90vh;
+  box-shadow: var(--shadow-xl);
+  background: #fff;
+  margin: 1rem;
+  animation: .3s cubic-bezier(.4, 0, .2, 1) Modal-module__AITaea__slideIn;
+  overflow-y: auto;
+}
+
+.Modal-module__AITaea__header {
+  border-bottom: 1px solid var(--gray-100);
+  background: linear-gradient(135deg, #6366f108 0%, #8b5cf608 100%);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.75rem 2rem;
+  display: flex;
+}
+
+.Modal-module__AITaea__title {
+  color: var(--text-primary);
+  letter-spacing: -.01em;
+  margin: 0;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.Modal-module__AITaea__closeButton {
+  cursor: pointer;
+  color: var(--text-secondary);
+  border-radius: var(--radius);
+  transition: var(--transition);
+  background: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  display: flex;
+}
+
+.Modal-module__AITaea__closeButton:hover {
+  background-color: var(--gray-100);
+  color: var(--text-primary);
+}
+
+.Modal-module__AITaea__content {
+  padding: 2rem;
+}
+
+@keyframes Modal-module__AITaea__fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes Modal-module__AITaea__slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px)scale(.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0)scale(1);
+  }
+}
+
+/*# sourceMappingURL=app_components_ui_Modal_module_css_bad6b30c._.single.css.map*/

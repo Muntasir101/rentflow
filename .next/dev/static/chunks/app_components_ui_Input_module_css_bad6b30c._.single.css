@@ -1,0 +1,47 @@
+/* [project]/app/components/ui/Input.module.css [app-client] (css) */
+.Input-module__bfW25q__inputGroup {
+  flex-direction: column;
+  gap: .5rem;
+  display: flex;
+}
+
+.Input-module__bfW25q__label {
+  color: var(--text-primary);
+  letter-spacing: .01em;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+.Input-module__bfW25q__input {
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--gray-200);
+  width: 100%;
+  transition: var(--transition);
+  color: var(--text-primary);
+  background: #fff;
+  padding: .875rem 1rem;
+  font-family: Inter, sans-serif;
+  font-size: .9375rem;
+}
+
+.Input-module__bfW25q__input::placeholder {
+  color: var(--text-tertiary);
+}
+
+.Input-module__bfW25q__input:hover {
+  border-color: var(--gray-300);
+}
+
+.Input-module__bfW25q__input:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 0 3px #6366f11a;
+}
+
+.Input-module__bfW25q__input:disabled {
+  background-color: var(--gray-50);
+  cursor: not-allowed;
+  opacity: .6;
+}
+
+/*# sourceMappingURL=app_components_ui_Input_module_css_bad6b30c._.single.css.map*/

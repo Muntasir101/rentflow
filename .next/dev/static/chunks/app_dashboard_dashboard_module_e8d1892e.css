@@ -1,0 +1,299 @@
+/* [project]/app/dashboard/dashboard.module.css [app-client] (css) */
+.dashboard-module__Gx_nyq__container {
+  max-width: 1400px;
+  padding: 2.5rem;
+}
+
+.dashboard-module__Gx_nyq__header {
+  margin-bottom: 2.5rem;
+}
+
+.dashboard-module__Gx_nyq__title {
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  margin: 0 0 .5rem;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.dashboard-module__Gx_nyq__subtitle {
+  color: var(--text-secondary);
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+.dashboard-module__Gx_nyq__statsGrid {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  display: grid;
+}
+
+.dashboard-module__Gx_nyq__statCard {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition);
+  background: #fffffff2;
+  border: 1px solid #ffffff80;
+  padding: 1.75rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.dashboard-module__Gx_nyq__statCard:before {
+  content: "";
+  background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.dashboard-module__Gx_nyq__statCard:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-4px);
+}
+
+.dashboard-module__Gx_nyq__statHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__statIcon {
+  border-radius: var(--radius-md);
+  width: 3rem;
+  height: 3rem;
+  color: var(--primary);
+  background: linear-gradient(135deg, #6366f11a 0%, #8b5cf61a 100%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__statLabel {
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin-bottom: .5rem;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+.dashboard-module__Gx_nyq__statValue {
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.dashboard-module__Gx_nyq__chartsGrid {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+  display: grid;
+}
+
+.dashboard-module__Gx_nyq__chartCard {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  background: #fffffff2;
+  border: 1px solid #ffffff80;
+  padding: 2rem;
+}
+
+.dashboard-module__Gx_nyq__chartHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__chartTitle {
+  color: var(--text-primary);
+  align-items: center;
+  gap: .5rem;
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 700;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__chartPeriod {
+  color: var(--text-tertiary);
+  font-size: .8125rem;
+  font-weight: 500;
+}
+
+.dashboard-module__Gx_nyq__lineChart {
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  height: 200px;
+  padding: 1rem 0;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__chartBar {
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  gap: .5rem;
+  height: 100%;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__barFill {
+  background: linear-gradient(180deg, var(--primary) 0%, var(--secondary) 100%);
+  border-radius: var(--radius) var(--radius) 0 0;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  min-height: 40px;
+  padding-top: .5rem;
+  transition: all .3s;
+  display: flex;
+  position: relative;
+}
+
+.dashboard-module__Gx_nyq__barFill:hover {
+  opacity: .8;
+  transform: scaleY(1.02);
+}
+
+.dashboard-module__Gx_nyq__barValue {
+  color: #fff;
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.dashboard-module__Gx_nyq__barLabel {
+  color: var(--text-secondary);
+  margin-top: auto;
+  font-size: .8125rem;
+  font-weight: 600;
+}
+
+.dashboard-module__Gx_nyq__pieChartContainer {
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__pieChart {
+  background: conic-gradient(var(--success) 0% 75%, var(--warning) 75% 95%, var(--danger) 95% 100%);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  box-shadow: 0 4px 12px #0000001a;
+}
+
+.dashboard-module__Gx_nyq__pieChart:after {
+  content: "";
+  background: #fff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dashboard-module__Gx_nyq__pieLegend {
+  flex-direction: column;
+  flex: 1;
+  gap: 1rem;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__legendItem {
+  align-items: center;
+  gap: .75rem;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__legendColor {
+  border-radius: var(--radius-sm);
+  width: 1rem;
+  height: 1rem;
+}
+
+.dashboard-module__Gx_nyq__legendLabel {
+  color: var(--text-primary);
+  flex: 1;
+  font-size: .9375rem;
+  font-weight: 500;
+}
+
+.dashboard-module__Gx_nyq__legendValue {
+  color: var(--text-primary);
+  font-size: .9375rem;
+  font-weight: 700;
+}
+
+.dashboard-module__Gx_nyq__occupancyStats {
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__occupancyItem {
+  border-bottom: 1px solid var(--gray-100);
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+  display: flex;
+}
+
+.dashboard-module__Gx_nyq__occupancyItem:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.dashboard-module__Gx_nyq__occupancyLabel {
+  color: var(--text-secondary);
+  font-size: .9375rem;
+  font-weight: 500;
+}
+
+.dashboard-module__Gx_nyq__occupancyValue {
+  color: var(--text-primary);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.dashboard-module__Gx_nyq__progressBar {
+  background: var(--gray-100);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  height: 12px;
+  margin-bottom: .75rem;
+  overflow: hidden;
+}
+
+.dashboard-module__Gx_nyq__progressFill {
+  background: linear-gradient(90deg, var(--success) 0%, #059669 100%);
+  border-radius: var(--radius-lg);
+  height: 100%;
+  transition: width .6s;
+}
+
+.dashboard-module__Gx_nyq__progressLabel {
+  text-align: center;
+  color: var(--text-secondary);
+  margin: 0;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=app_dashboard_dashboard_module_e8d1892e.css.map*/

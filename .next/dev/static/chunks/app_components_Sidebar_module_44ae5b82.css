@@ -1,0 +1,119 @@
+/* [project]/app/components/Sidebar.module.css [app-client] (css) */
+.Sidebar-module__degjda__sidebar {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  width: 280px;
+  height: 100vh;
+  box-shadow: var(--shadow-lg);
+  z-index: 100;
+  background: #fffffffa;
+  border-right: 1px solid #00000014;
+  flex-direction: column;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.Sidebar-module__degjda__logo {
+  background: linear-gradient(135deg, #6366f10d 0%, #8b5cf60d 100%);
+  border-bottom: 1px solid #0000000f;
+  padding: 2rem 1.5rem;
+}
+
+.Sidebar-module__degjda__logo h2 {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -.02em;
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.Sidebar-module__degjda__nav {
+  flex-direction: column;
+  flex: 1;
+  gap: .375rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  overflow-y: auto;
+}
+
+.Sidebar-module__degjda__navItem {
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  transition: var(--transition);
+  align-items: center;
+  gap: .875rem;
+  padding: .875rem 1rem;
+  font-size: .9375rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.Sidebar-module__degjda__navItem:before {
+  content: "";
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  width: 3px;
+  height: 100%;
+  transition: transform .3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scaleY(0);
+}
+
+.Sidebar-module__degjda__navItem:hover {
+  color: var(--text-primary);
+  background: linear-gradient(135deg, #6366f114 0%, #8b5cf614 100%);
+  transform: translateX(2px);
+}
+
+.Sidebar-module__degjda__active {
+  color: var(--primary);
+  background: linear-gradient(135deg, #6366f11f 0%, #8b5cf61f 100%);
+  font-weight: 600;
+}
+
+.Sidebar-module__degjda__active:before {
+  transform: scaleY(1);
+}
+
+.Sidebar-module__degjda__active:hover {
+  background: linear-gradient(135deg, #6366f126 0%, #8b5cf626 100%);
+}
+
+.Sidebar-module__degjda__footer {
+  background: #f9fafb80;
+  border-top: 1px solid #0000000f;
+  padding: 1rem;
+}
+
+.Sidebar-module__degjda__logoutButton {
+  width: 100%;
+  color: var(--danger);
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  transition: var(--transition);
+  background: none;
+  border: none;
+  align-items: center;
+  gap: .875rem;
+  padding: .875rem 1rem;
+  font-family: Inter, sans-serif;
+  font-size: .9375rem;
+  font-weight: 600;
+  display: flex;
+}
+
+.Sidebar-module__degjda__logoutButton:hover {
+  background: #ef44441a;
+  transform: translateX(2px);
+}
+
+/*# sourceMappingURL=app_components_Sidebar_module_44ae5b82.css.map*/

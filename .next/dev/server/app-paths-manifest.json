@@ -1,0 +1,10 @@
+{
+  "/api/buildings/[id]/flats/route": "app/api/buildings/[id]/flats/route.js",
+  "/api/buildings/route": "app/api/buildings/route.js",
+  "/api/tenants/route": "app/api/tenants/route.js",
+  "/dashboard/buildings/[id]/page": "app/dashboard/buildings/[id]/page.js",
+  "/dashboard/buildings/page": "app/dashboard/buildings/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/tenants/page": "app/dashboard/tenants/page.js",
+  "/page": "app/page.js"
+}

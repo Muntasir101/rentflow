@@ -1,0 +1,70 @@
+/* [project]/app/components/ErrorBoundary.module.css [app-client] (css) */
+.ErrorBoundary-module__uqv71G__container {
+  background: var(--bg-secondary);
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  display: flex;
+}
+
+.ErrorBoundary-module__uqv71G__content {
+  text-align: center;
+  background: var(--bg-primary);
+  border-radius: var(--radius-lg);
+  max-width: 500px;
+  box-shadow: var(--shadow-lg);
+  padding: 3rem;
+}
+
+.ErrorBoundary-module__uqv71G__icon {
+  width: 80px;
+  height: 80px;
+  color: var(--danger);
+  background: linear-gradient(135deg, #ef44441a 0%, #dc26261a 100%);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  display: inline-flex;
+}
+
+.ErrorBoundary-module__uqv71G__title {
+  color: var(--text-primary);
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.ErrorBoundary-module__uqv71G__message {
+  color: var(--text-secondary);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.ErrorBoundary-module__uqv71G__button {
+  background: var(--primary);
+  color: #fff;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+  align-items: center;
+  gap: .5rem;
+  padding: .75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  display: inline-flex;
+}
+
+.ErrorBoundary-module__uqv71G__button:hover {
+  background: var(--primary-dark);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-1px);
+}
+
+.ErrorBoundary-module__uqv71G__button:active {
+  transform: translateY(0);
+}
+
+/*# sourceMappingURL=app_components_ErrorBoundary_module_css_bad6b30c._.single.css.map*/

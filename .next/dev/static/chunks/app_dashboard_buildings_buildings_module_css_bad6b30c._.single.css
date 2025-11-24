@@ -1,0 +1,285 @@
+/* [project]/app/dashboard/buildings/buildings.module.css [app-client] (css) */
+.buildings-module___34-1W__container {
+  max-width: 1400px;
+  padding: 2.5rem;
+}
+
+.buildings-module___34-1W__header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  display: flex;
+}
+
+.buildings-module___34-1W__title {
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  margin: 0 0 .5rem;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.buildings-module___34-1W__subtitle {
+  color: var(--text-secondary);
+  margin: 0;
+  font-size: 1rem;
+}
+
+.buildings-module___34-1W__statsGrid {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  display: grid;
+}
+
+.buildings-module___34-1W__statCard {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition);
+  background: #fffffff2;
+  border: 1px solid #ffffff80;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.75rem;
+  display: flex;
+}
+
+.buildings-module___34-1W__statCard:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-4px);
+}
+
+.buildings-module___34-1W__statIcon {
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+}
+
+.buildings-module___34-1W__statContent {
+  flex: 1;
+}
+
+.buildings-module___34-1W__statLabel {
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin: 0 0 .5rem;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+.buildings-module___34-1W__statValue {
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  margin: 0;
+  font-size: 1.875rem;
+  font-weight: 800;
+}
+
+.buildings-module___34-1W__grid {
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 1.5rem;
+  display: grid;
+}
+
+.buildings-module___34-1W__card {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  transition: var(--transition);
+  cursor: pointer;
+  background: #fffffff2;
+  border: 1px solid #ffffff80;
+  padding: 1.75rem;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.buildings-module___34-1W__card:before {
+  content: "";
+  background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.buildings-module___34-1W__card:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-6px);
+}
+
+.buildings-module___34-1W__cardHeader {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  display: flex;
+}
+
+.buildings-module___34-1W__cardIcon {
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  display: flex;
+  box-shadow: 0 4px 12px #6366f14d;
+}
+
+.buildings-module___34-1W__viewButton {
+  background: var(--gray-100);
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--text-secondary);
+  transition: var(--transition);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.buildings-module___34-1W__card:hover .buildings-module___34-1W__viewButton {
+  background: var(--primary);
+  color: #fff;
+  transform: translateX(4px);
+}
+
+.buildings-module___34-1W__cardTitle {
+  color: var(--text-primary);
+  letter-spacing: -.01em;
+  margin: 0 0 .75rem;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.buildings-module___34-1W__cardAddress {
+  color: var(--text-secondary);
+  align-items: center;
+  gap: .5rem;
+  margin-bottom: 1.25rem;
+  font-size: .9375rem;
+  display: flex;
+}
+
+.buildings-module___34-1W__cardStats {
+  border-bottom: 1px solid var(--gray-100);
+  gap: 1.5rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  display: flex;
+}
+
+.buildings-module___34-1W__cardStat {
+  color: var(--text-secondary);
+  align-items: center;
+  gap: .5rem;
+  font-size: .875rem;
+  font-weight: 500;
+  display: flex;
+}
+
+.buildings-module___34-1W__cardFooter {
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.buildings-module___34-1W__occupancy, .buildings-module___34-1W__revenue {
+  flex-direction: column;
+  gap: .25rem;
+  display: flex;
+}
+
+.buildings-module___34-1W__occupancyLabel, .buildings-module___34-1W__revenueLabel {
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: .75rem;
+  font-weight: 600;
+}
+
+.buildings-module___34-1W__occupancyValue {
+  color: var(--success);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.buildings-module___34-1W__revenueValue {
+  color: var(--primary);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.buildings-module___34-1W__progressBar {
+  background: var(--gray-100);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  height: 8px;
+  overflow: hidden;
+}
+
+.buildings-module___34-1W__progressFill {
+  background: linear-gradient(90deg, var(--success) 0%, #059669 100%);
+  border-radius: var(--radius-lg);
+  height: 100%;
+  transition: width .6s;
+}
+
+.buildings-module___34-1W__emptyState {
+  color: var(--text-tertiary);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: var(--radius-xl);
+  border: 2px dashed var(--gray-200);
+  background: #ffffff80;
+  flex-direction: column;
+  grid-column: 1 / -1;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 5rem 2rem;
+  display: flex;
+}
+
+.buildings-module___34-1W__emptyState h3 {
+  color: var(--text-primary);
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.buildings-module___34-1W__emptyState p {
+  text-align: center;
+  max-width: 400px;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.buildings-module___34-1W__form {
+  flex-direction: column;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.buildings-module___34-1W__formActions {
+  border-top: 1px solid var(--gray-100);
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  display: flex;
+}
+
+/*# sourceMappingURL=app_dashboard_buildings_buildings_module_css_bad6b30c._.single.css.map*/

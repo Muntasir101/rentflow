@@ -1,0 +1,116 @@
+/* [project]/app/components/ui/FileUpload.module.css [app-client] (css) */
+.FileUpload-module__5_KBWq__container {
+  flex-direction: column;
+  gap: .5rem;
+  width: 100%;
+  display: flex;
+}
+
+.FileUpload-module__5_KBWq__label {
+  color: var(--text-primary);
+  letter-spacing: .01em;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+.FileUpload-module__5_KBWq__uploadArea {
+  border: 2px dashed var(--gray-300);
+  border-radius: var(--radius-md);
+  text-align: center;
+  cursor: pointer;
+  transition: var(--transition);
+  background: var(--gray-50);
+  padding: 2rem;
+}
+
+.FileUpload-module__5_KBWq__uploadArea:hover {
+  border-color: var(--primary);
+  background: #6366f10d;
+}
+
+.FileUpload-module__5_KBWq__fileInput {
+  display: none;
+}
+
+.FileUpload-module__5_KBWq__uploadContent {
+  color: var(--text-secondary);
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.FileUpload-module__5_KBWq__uploadText {
+  color: var(--text-primary);
+  margin: 0;
+  font-size: .9375rem;
+  font-weight: 500;
+}
+
+.FileUpload-module__5_KBWq__uploadHint {
+  color: var(--text-tertiary);
+  margin: 0;
+  font-size: .8125rem;
+}
+
+.FileUpload-module__5_KBWq__preview {
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius-md);
+  background: #fff;
+  padding: 1rem;
+  position: relative;
+}
+
+.FileUpload-module__5_KBWq__previewImage {
+  object-fit: contain;
+  border-radius: var(--radius);
+  width: 100%;
+  max-height: 200px;
+}
+
+.FileUpload-module__5_KBWq__documentPreview {
+  color: var(--text-secondary);
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+  padding: 2rem;
+  display: flex;
+}
+
+.FileUpload-module__5_KBWq__documentPreview p {
+  color: var(--text-primary);
+  margin: 0;
+  font-size: .875rem;
+  font-weight: 500;
+}
+
+.FileUpload-module__5_KBWq__removeButton {
+  background: var(--danger);
+  color: #fff;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+  border: none;
+  align-items: center;
+  gap: .25rem;
+  padding: .5rem .75rem;
+  font-size: .8125rem;
+  font-weight: 600;
+  display: flex;
+  position: absolute;
+  top: .5rem;
+  right: .5rem;
+}
+
+.FileUpload-module__5_KBWq__removeButton:hover {
+  background: #dc2626;
+}
+
+.FileUpload-module__5_KBWq__error {
+  color: var(--danger);
+  margin: 0;
+  font-size: .8125rem;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=app_components_ui_FileUpload_module_css_bad6b30c._.single.css.map*/

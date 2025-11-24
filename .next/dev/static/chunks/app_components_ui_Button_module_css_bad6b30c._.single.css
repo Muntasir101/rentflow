@@ -1,0 +1,122 @@
+/* [project]/app/components/ui/Button.module.css [app-client] (css) */
+.Button-module__rj9yOG__button {
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition);
+  letter-spacing: .01em;
+  border: none;
+  outline: none;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: .75rem 1.5rem;
+  font-family: Inter, sans-serif;
+  font-size: .875rem;
+  font-weight: 600;
+  display: inline-flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.Button-module__rj9yOG__button:before {
+  content: "";
+  opacity: 0;
+  background: linear-gradient(135deg, #fff3 0%, #fff0 100%);
+  width: 100%;
+  height: 100%;
+  transition: opacity .3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Button-module__rj9yOG__button:hover:before {
+  opacity: 1;
+}
+
+.Button-module__rj9yOG__button:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+  transform: none !important;
+}
+
+.Button-module__rj9yOG__button:active:not(:disabled) {
+  transform: scale(.98);
+}
+
+.Button-module__rj9yOG__primary {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: #fff;
+  box-shadow: 0 4px 12px #6366f14d;
+}
+
+.Button-module__rj9yOG__primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px #6366f166;
+}
+
+.Button-module__rj9yOG__secondary {
+  background: var(--gray-100);
+  color: var(--text-primary);
+  border: 1px solid var(--gray-200);
+}
+
+.Button-module__rj9yOG__secondary:hover:not(:disabled) {
+  background: var(--gray-200);
+  border-color: var(--gray-300);
+}
+
+.Button-module__rj9yOG__outline {
+  border: 1.5px solid var(--gray-300);
+  color: var(--text-primary);
+  background-color: #0000;
+}
+
+.Button-module__rj9yOG__outline:hover:not(:disabled) {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: #6366f10d;
+}
+
+.Button-module__rj9yOG__danger {
+  background: linear-gradient(135deg, var(--danger) 0%, #dc2626 100%);
+  color: #fff;
+  box-shadow: 0 4px 12px #ef44444d;
+}
+
+.Button-module__rj9yOG__danger:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px #ef444466;
+}
+
+.Button-module__rj9yOG__small {
+  padding: .5rem 1rem;
+  font-size: .8125rem;
+}
+
+.Button-module__rj9yOG__medium {
+  padding: .75rem 1.5rem;
+  font-size: .875rem;
+}
+
+.Button-module__rj9yOG__large {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+.Button-module__rj9yOG__loader {
+  border: 2px solid #ffffff4d;
+  border-top-color: #fff;
+  border-radius: 50%;
+  width: 1rem;
+  height: 1rem;
+  animation: .8s linear infinite Button-module__rj9yOG__spin;
+}
+
+@keyframes Button-module__rj9yOG__spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=app_components_ui_Button_module_css_bad6b30c._.single.css.map*/

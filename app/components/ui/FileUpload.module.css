@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    letter-spacing: 0.01em;
+}
+
+.uploadArea {
+    border: 2px dashed var(--gray-300);
+    border-radius: var(--radius-md);
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+    background: var(--gray-50);
+}
+
+.uploadArea:hover {
+    border-color: var(--primary);
+    background: rgba(99, 102, 241, 0.05);
+}
+
+.fileInput {
+    display: none;
+}
+
+.uploadContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+}
+
+.uploadText {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    margin: 0;
+    color: var(--text-primary);
+}
+
+.uploadHint {
+    font-size: 0.8125rem;
+    margin: 0;
+    color: var(--text-tertiary);
+}
+
+.preview {
+    position: relative;
+    border: 2px solid var(--gray-200);
+    border-radius: var(--radius-md);
+    padding: 1rem;
+    background: white;
+}
+
+.previewImage {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: var(--radius);
+}
+
+.documentPreview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 2rem;
+    color: var(--text-secondary);
+}
+
+.documentPreview p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.removeButton {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: var(--danger);
+    color: white;
+    border: none;
+    border-radius: var(--radius);
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.removeButton:hover {
+    background: #dc2626;
+}
+
+.error {
+    color: var(--danger);
+    font-size: 0.8125rem;
+    margin: 0;
+    font-weight: 500;
+}
