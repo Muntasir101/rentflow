@@ -1,0 +1,195 @@
+/* [project]/app/dashboard/rent/rent.module.css [app-client] (css) */
+.rent-module__qVibUW__header {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.rent-module__qVibUW__title {
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.rent-module__qVibUW__statsGrid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  display: grid;
+}
+
+.rent-module__qVibUW__statCard {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  background: #fffffff2;
+  border: 1px solid #ffffff80;
+  padding: 1.75rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.rent-module__qVibUW__statCard:before {
+  content: "";
+  background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rent-module__qVibUW__statCard h3 {
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin: 0 0 .75rem;
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+.rent-module__qVibUW__statCard p {
+  color: var(--text-primary);
+  letter-spacing: -.02em;
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.rent-module__qVibUW__sectionTitle {
+  color: var(--text-primary);
+  letter-spacing: -.01em;
+  margin: 0 0 1.5rem;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.rent-module__qVibUW__tableContainer {
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  background: #fffffff2;
+  border: 1px solid #ffffff80;
+  overflow: hidden;
+}
+
+.rent-module__qVibUW__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.rent-module__qVibUW__table thead {
+  background: linear-gradient(135deg, #6366f114 0%, #8b5cf614 100%);
+}
+
+.rent-module__qVibUW__table th {
+  text-align: left;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  border-bottom: 2px solid var(--gray-200);
+  padding: 1.25rem 1.5rem;
+  font-size: .8125rem;
+  font-weight: 700;
+}
+
+.rent-module__qVibUW__table td {
+  border-bottom: 1px solid var(--gray-100);
+  color: var(--text-primary);
+  padding: 1.25rem 1.5rem;
+  font-size: .9375rem;
+}
+
+.rent-module__qVibUW__table tbody tr {
+  transition: var(--transition);
+}
+
+.rent-module__qVibUW__table tbody tr:hover {
+  background: #6366f108;
+}
+
+.rent-module__qVibUW__table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.rent-module__qVibUW__amount {
+  color: var(--primary);
+  font-size: 1.0625rem;
+  font-weight: 700;
+}
+
+.rent-module__qVibUW__badge {
+  color: var(--primary);
+  border-radius: var(--radius);
+  text-transform: uppercase;
+  letter-spacing: .025em;
+  background: linear-gradient(135deg, #6366f126 0%, #4f46e526 100%);
+  padding: .375rem .875rem;
+  font-size: .75rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.rent-module__qVibUW__empty {
+  text-align: center;
+  color: var(--text-tertiary);
+  font-style: italic;
+  padding: 3rem !important;
+}
+
+.rent-module__qVibUW__form {
+  flex-direction: column;
+  gap: 1.25rem;
+  display: flex;
+}
+
+.rent-module__qVibUW__selectGroup {
+  flex-direction: column;
+  gap: .5rem;
+  display: flex;
+}
+
+.rent-module__qVibUW__label {
+  color: var(--text-primary);
+  letter-spacing: .01em;
+  font-size: .875rem;
+  font-weight: 600;
+}
+
+.rent-module__qVibUW__select {
+  border-radius: var(--radius-md);
+  border: 1.5px solid var(--gray-200);
+  width: 100%;
+  transition: var(--transition);
+  color: var(--text-primary);
+  background: #fff;
+  padding: .875rem 1rem;
+  font-family: Inter, sans-serif;
+  font-size: .9375rem;
+}
+
+.rent-module__qVibUW__select:hover {
+  border-color: var(--gray-300);
+}
+
+.rent-module__qVibUW__select:focus {
+  border-color: var(--primary);
+  outline: none;
+  box-shadow: 0 0 0 3px #6366f11a;
+}
+
+.rent-module__qVibUW__formActions {
+  border-top: 1px solid var(--gray-100);
+  justify-content: flex-end;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  display: flex;
+}
+
+/*# sourceMappingURL=app_dashboard_rent_rent_module_css_bad6b30c._.single.css.map*/

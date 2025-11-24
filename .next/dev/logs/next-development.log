@@ -188,3 +188,511 @@
 [00:19:39.422] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
 [00:19:39.422] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
 [00:19:39.422] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:26:34.690] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:34.693] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:36.018] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:36.028] Server  LOG     prisma:query "SELECT 1"
+[00:26:36.029] Server  LOG     prisma:query "SELECT 1"
+[00:26:36.029] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:26:36.030] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:26:36.030] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:26:36.054] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:36.059] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:26:36.060] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:26:36.060] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:26:37.183] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:37.189] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE (`main`.`Tenant`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:26:37.189] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:26:37.189] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:26:37.190] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:26:37.241] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:37.246] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE (`main`.`Tenant`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:26:37.247] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:26:37.247] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:26:37.247] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:26:37.293] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:37.298] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId` FROM `main`.`Tenant` WHERE (`main`.`Tenant`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:26:37.301] Server  LOG     prisma:query "SELECT `main`.`FamilyMember`.`id`, `main`.`FamilyMember`.`tenantId`, `main`.`FamilyMember`.`name`, `main`.`FamilyMember`.`relationship`, `main`.`FamilyMember`.`age`, `main`.`FamilyMember`.`phone`, `main`.`FamilyMember`.`createdAt`, `main`.`FamilyMember`.`updatedAt` FROM `main`.`FamilyMember` WHERE `main`.`FamilyMember`.`tenantId` = ? ORDER BY `main`.`FamilyMember`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:26:37.341] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:37.345] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId` FROM `main`.`Tenant` WHERE (`main`.`Tenant`.`id` = ? AND 1=1) LIMIT ? OFFSET ?"
+[00:26:37.348] Server  LOG     prisma:query "SELECT `main`.`FamilyMember`.`id`, `main`.`FamilyMember`.`tenantId`, `main`.`FamilyMember`.`name`, `main`.`FamilyMember`.`relationship`, `main`.`FamilyMember`.`age`, `main`.`FamilyMember`.`phone`, `main`.`FamilyMember`.`createdAt`, `main`.`FamilyMember`.`updatedAt` FROM `main`.`FamilyMember` WHERE `main`.`FamilyMember`.`tenantId` = ? ORDER BY `main`.`FamilyMember`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:26:57.081] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:57.082] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:57.156] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:57.160] Server  LOG     prisma:query "SELECT 1"
+[00:26:57.161] Server  LOG     prisma:query "SELECT 1"
+[00:26:57.161] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:26:57.163] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:26:57.163] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:26:57.165] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:26:57.165] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:26:57.194] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:57.199] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:26:57.200] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:26:57.200] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:26:57.200] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:26:57.200] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:26:57.206] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:57.214] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:26:57.215] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:26:57.215] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:26:57.226] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:26:57.229] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:26:57.230] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:26:57.230] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:49:57.848] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:49:57.850] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:49:57.953] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:49:57.959] Server  LOG     prisma:query "SELECT 1"
+[00:49:57.959] Server  LOG     prisma:query "SELECT 1"
+[00:49:57.960] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:49:57.960] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:49:57.960] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:49:57.987] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:49:57.993] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:49:57.993] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:49:57.994] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:49:58.767] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:49:58.768] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:49:58.851] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:49:58.856] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:49:58.857] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:49:58.858] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:49:58.858] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:49:58.858] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:49:58.882] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:49:58.888] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:49:58.894] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:49:58.894] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:49:58.894] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:49:58.894] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:49:58.894] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:49:58.904] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:49:58.905] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:49:58.905] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:49:58.924] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:49:58.927] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:49:58.927] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:49:58.927] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:50:05.117] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:05.118] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:05.194] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:05.197] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:05.197] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:05.197] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:50:05.219] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:05.224] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:05.225] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:05.225] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:50:06.546] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:06.548] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:06.631] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:06.633] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:06.638] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:06.639] Server  LOG     prisma:query "SELECT 1"
+[00:50:06.639] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:06.639] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:06.639] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:50:06.642] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:06.642] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:50:06.642] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:06.642] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:06.669] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:06.670] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:06.673] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:06.674] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:06.674] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:06.674] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:50:06.674] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:06.674] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:06.674] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:50:06.674] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:07.524] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:07.525] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:08.020] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:08.025] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:08.028] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:08.029] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:50:08.029] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:08.029] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:08.053] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:08.058] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:08.059] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:08.060] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:50:08.060] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:08.060] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:08.198] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:08.206] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Payment`.`id` FROM `main`.`Payment` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:08.206] Server  LOG     prisma:query "SELECT `main`.`Payment`.`id`, `main`.`Payment`.`tenantId`, `main`.`Payment`.`amount`, `main`.`Payment`.`date`, `main`.`Payment`.`type`, `main`.`Payment`.`method`, `main`.`Payment`.`status`, `main`.`Payment`.`month`, `main`.`Payment`.`createdAt`, `main`.`Payment`.`updatedAt` FROM `main`.`Payment` WHERE 1=1 ORDER BY `main`.`Payment`.`date` DESC LIMIT ? OFFSET ?"
+[00:50:08.207] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:08.208] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:08.208] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:08.208] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:08.230] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:08.233] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Payment`.`id` FROM `main`.`Payment` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:08.233] Server  LOG     prisma:query "SELECT `main`.`Payment`.`id`, `main`.`Payment`.`tenantId`, `main`.`Payment`.`amount`, `main`.`Payment`.`date`, `main`.`Payment`.`type`, `main`.`Payment`.`method`, `main`.`Payment`.`status`, `main`.`Payment`.`month`, `main`.`Payment`.`createdAt`, `main`.`Payment`.`updatedAt` FROM `main`.`Payment` WHERE 1=1 ORDER BY `main`.`Payment`.`date` DESC LIMIT ? OFFSET ?"
+[00:50:08.234] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:08.234] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:08.234] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:08.235] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:24.135] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:24.137] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:24.751] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:24.761] Server  LOG     prisma:query "SELECT 1"
+[00:50:24.762] Server  LOG     prisma:query "SELECT 1"
+[00:50:24.762] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:24.763] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:24.766] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:50:24.766] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:24.767] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:24.793] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:24.796] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:24.797] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:24.797] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:50:24.797] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:24.798] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:24.918] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:24.926] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`role` FROM `main`.`User` WHERE (`main`.`User`.`active` = ? AND `main`.`User`.`role` IN (?,?,?)) ORDER BY `main`.`User`.`name` ASC LIMIT ? OFFSET ?"
+[00:50:24.998] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:25.001] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:25.006] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`role` FROM `main`.`User` WHERE (`main`.`User`.`active` = ? AND `main`.`User`.`role` IN (?,?,?)) ORDER BY `main`.`User`.`name` ASC LIMIT ? OFFSET ?"
+[00:50:25.006] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`ServiceRequest`.`id` FROM `main`.`ServiceRequest` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:25.006] Server  LOG     prisma:query "SELECT `main`.`ServiceRequest`.`id`, `main`.`ServiceRequest`.`tenantId`, `main`.`ServiceRequest`.`assignedToId`, `main`.`ServiceRequest`.`category`, `main`.`ServiceRequest`.`description`, `main`.`ServiceRequest`.`status`, `main`.`ServiceRequest`.`cost`, `main`.`ServiceRequest`.`createdAt`, `main`.`ServiceRequest`.`updatedAt` FROM `main`.`ServiceRequest` WHERE 1=1 ORDER BY `main`.`ServiceRequest`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:25.010] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:25.010] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:25.010] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:25.010] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:25.010] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:25.026] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:25.029] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`ServiceRequest`.`id` FROM `main`.`ServiceRequest` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:25.029] Server  LOG     prisma:query "SELECT `main`.`ServiceRequest`.`id`, `main`.`ServiceRequest`.`tenantId`, `main`.`ServiceRequest`.`assignedToId`, `main`.`ServiceRequest`.`category`, `main`.`ServiceRequest`.`description`, `main`.`ServiceRequest`.`status`, `main`.`ServiceRequest`.`cost`, `main`.`ServiceRequest`.`createdAt`, `main`.`ServiceRequest`.`updatedAt` FROM `main`.`ServiceRequest` WHERE 1=1 ORDER BY `main`.`ServiceRequest`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:25.029] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:25.029] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:25.029] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:25.030] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:25.030] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:28.825] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:28.827] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:29.280] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:29.288] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`ServiceRequest`.`id` FROM `main`.`ServiceRequest` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:29.289] Server  LOG     prisma:query "SELECT `main`.`ServiceRequest`.`id`, `main`.`ServiceRequest`.`tenantId`, `main`.`ServiceRequest`.`assignedToId`, `main`.`ServiceRequest`.`category`, `main`.`ServiceRequest`.`description`, `main`.`ServiceRequest`.`status`, `main`.`ServiceRequest`.`cost`, `main`.`ServiceRequest`.`createdAt`, `main`.`ServiceRequest`.`updatedAt` FROM `main`.`ServiceRequest` WHERE 1=1 ORDER BY `main`.`ServiceRequest`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:29.289] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:29.290] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:29.290] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:29.290] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:29.290] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:29.307] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:29.310] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`ServiceRequest`.`id` FROM `main`.`ServiceRequest` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:29.311] Server  LOG     prisma:query "SELECT `main`.`ServiceRequest`.`id`, `main`.`ServiceRequest`.`tenantId`, `main`.`ServiceRequest`.`assignedToId`, `main`.`ServiceRequest`.`category`, `main`.`ServiceRequest`.`description`, `main`.`ServiceRequest`.`status`, `main`.`ServiceRequest`.`cost`, `main`.`ServiceRequest`.`createdAt`, `main`.`ServiceRequest`.`updatedAt` FROM `main`.`ServiceRequest` WHERE 1=1 ORDER BY `main`.`ServiceRequest`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:29.311] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:29.311] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:29.311] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:29.311] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:29.311] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:45.286] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:45.287] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:45.360] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:45.368] Server  LOG     prisma:query "SELECT 1"
+[00:50:45.368] Server  LOG     prisma:query "SELECT 1"
+[00:50:45.368] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:45.371] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:45.372] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:50:45.372] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:45.372] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:45.395] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:45.399] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:45.402] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:45.402] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:50:45.402] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:50:45.403] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:50:45.413] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:45.418] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:45.418] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:45.418] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:50:45.433] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:50:45.438] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:50:45.450] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:50:45.450] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:52:56.276] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.281] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.435] Server  LOG      ✓ Compiled in 1ms
+[00:52:56.501] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.524] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.577] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.579] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.634] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.635] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.691] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.693] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.747] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.749] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.822] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.824] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.877] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.878] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.931] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.932] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.991] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:56.992] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.040] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.041] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.092] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.093] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.140] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.141] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.213] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.241] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.305] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.306] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.350] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.351] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.399] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.401] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.453] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.454] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.510] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.511] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.560] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.561] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.608] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.609] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.658] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.659] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.723] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.724] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.778] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.798] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.854] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.856] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.915] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.917] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.967] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:57.969] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.019] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.023] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.072] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.073] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.133] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.135] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.186] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.187] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.234] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.236] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.308] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.309] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.381] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.383] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.463] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.465] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.555] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.557] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.620] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.622] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.682] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.683] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.754] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.756] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.807] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.808] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.857] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.858] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.907] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.909] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.977] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:58.979] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.038] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.040] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.089] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.090] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.142] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.143] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.190] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.191] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.240] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.241] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.290] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.291] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.353] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.354] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.405] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.406] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.454] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.456] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.489] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.491] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.528] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:52:59.529] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:47.636] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:47.638] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:47.725] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:47.729] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:47.821] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:47.822] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:47.884] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:47.887] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:47.961] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:47.964] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.013] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.014] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.091] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.093] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.192] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.196] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.276] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.278] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.355] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.360] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.409] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.410] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.462] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.464] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.515] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.517] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.562] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.563] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.608] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.609] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.662] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.664] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.707] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.708] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.766] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.768] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.822] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.824] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.900] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.902] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.981] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:48.984] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.050] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.052] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.141] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.143] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.217] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.218] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.269] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.270] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.326] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.328] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.387] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.389] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.453] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.454] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.503] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.504] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.551] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.552] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.629] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.632] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.739] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.741] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.804] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.806] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.854] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.855] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.906] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.907] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.962] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:49.964] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.015] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.021] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.068] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.069] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.116] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.117] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.165] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.167] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.218] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.219] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.283] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.284] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.335] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.336] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.384] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.385] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.433] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.434] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.480] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.481] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.527] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.530] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.577] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.579] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.625] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.626] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.676] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.679] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.727] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.729] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.782] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.783] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.833] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.834] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.893] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.895] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.929] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.931] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.960] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:54:50.962] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:11.045] Server  LOG      ✓ Compiled in 53ms
+[00:55:16.253] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:16.255] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:16.264] Server  LOG      ✓ Compiled in 118ms
+[00:55:16.415] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:16.417] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:16.967] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:55:17.203] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:17.208] Server  LOG     prisma:query "SELECT 1"
+[00:55:17.208] Server  LOG     prisma:query "SELECT 1"
+[00:55:17.208] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:55:17.209] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE 1=1 ORDER BY `main`.`Tenant`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:55:17.210] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?,?,?) LIMIT ? OFFSET ?"
+[00:55:17.210] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?,?) LIMIT ? OFFSET ?"
+[00:55:17.210] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:17.269] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:17.281] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:55:17.281] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE 1=1 ORDER BY `main`.`Building`.`createdAt` DESC LIMIT ? OFFSET ?"
+[00:55:17.281] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`buildingId` IN (?) LIMIT ? OFFSET ?"
+[00:55:40.417] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:40.418] Server  ERROR   ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:42.979] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:42.983] Server  LOG     prisma:query "SELECT 1"
+[00:55:42.985] Server  LOG     prisma:query "SELECT `main`.`Payment`.`id`, `main`.`Payment`.`tenantId`, `main`.`Payment`.`amount`, `main`.`Payment`.`date`, `main`.`Payment`.`type`, `main`.`Payment`.`method`, `main`.`Payment`.`status`, `main`.`Payment`.`month`, `main`.`Payment`.`createdAt`, `main`.`Payment`.`updatedAt` FROM `main`.`Payment` WHERE (`main`.`Payment`.`date` >= ? AND `main`.`Payment`.`date` <= ?) LIMIT ? OFFSET ?"
+[00:55:42.985] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:42.985] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:42.985] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:42.985] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:42.987] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:55:42.989] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`moveOutDate` IS NULL LIMIT ? OFFSET ?) AS `sub`"
+[00:55:42.991] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE (`main`.`Tenant`.`flatId` IS NOT NULL AND `main`.`Tenant`.`moveOutDate` IS NULL) LIMIT ? OFFSET ?) AS `sub`"
+[00:55:42.993] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE (`main`.`Tenant`.`moveInDate` >= ? AND `main`.`Tenant`.`moveInDate` <= ?) LIMIT ? OFFSET ?) AS `sub`"
+[00:55:42.995] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE (`main`.`Tenant`.`moveOutDate` >= ? AND `main`.`Tenant`.`moveOutDate` <= ?) LIMIT ? OFFSET ?) AS `sub`"
+[00:55:42.997] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.000] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Flat`.`id` FROM `main`.`Flat` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.002] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Flat`.`id` FROM `main`.`Flat` WHERE `main`.`Flat`.`isOccupied` = ? LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.003] Server  LOG     prisma:query "SELECT `main`.`ServiceRequest`.`id`, `main`.`ServiceRequest`.`tenantId`, `main`.`ServiceRequest`.`assignedToId`, `main`.`ServiceRequest`.`category`, `main`.`ServiceRequest`.`description`, `main`.`ServiceRequest`.`status`, `main`.`ServiceRequest`.`cost`, `main`.`ServiceRequest`.`createdAt`, `main`.`ServiceRequest`.`updatedAt` FROM `main`.`ServiceRequest` WHERE (`main`.`ServiceRequest`.`createdAt` >= ? AND `main`.`ServiceRequest`.`createdAt` <= ?) LIMIT ? OFFSET ?"
+[00:55:43.004] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:43.004] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:43.004] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:43.006] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`isOccupied` = ? LIMIT ? OFFSET ?"
+[00:55:43.008] Server  LOG     prisma:query "SELECT SUM(`securityDeposit`) FROM (SELECT `main`.`Tenant`.`securityDeposit` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`moveOutDate` IS NULL LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.026] Server  WARN    ⚠️  JWT_SECRET not set, using default. This is unsafe for production!
+[00:55:43.031] Server  LOG     prisma:query "SELECT `main`.`Payment`.`id`, `main`.`Payment`.`tenantId`, `main`.`Payment`.`amount`, `main`.`Payment`.`date`, `main`.`Payment`.`type`, `main`.`Payment`.`method`, `main`.`Payment`.`status`, `main`.`Payment`.`month`, `main`.`Payment`.`createdAt`, `main`.`Payment`.`updatedAt` FROM `main`.`Payment` WHERE (`main`.`Payment`.`date` >= ? AND `main`.`Payment`.`date` <= ?) LIMIT ? OFFSET ?"
+[00:55:43.031] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:43.032] Server  LOG     prisma:query "SELECT `main`.`User`.`id`, `main`.`User`.`name`, `main`.`User`.`email`, `main`.`User`.`password`, `main`.`User`.`phone`, `main`.`User`.`role`, `main`.`User`.`active`, `main`.`User`.`createdAt`, `main`.`User`.`updatedAt` FROM `main`.`User` WHERE `main`.`User`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:43.032] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:43.032] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:43.033] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.035] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`moveOutDate` IS NULL LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.037] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE (`main`.`Tenant`.`flatId` IS NOT NULL AND `main`.`Tenant`.`moveOutDate` IS NULL) LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.038] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE (`main`.`Tenant`.`moveInDate` >= ? AND `main`.`Tenant`.`moveInDate` <= ?) LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.039] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Tenant`.`id` FROM `main`.`Tenant` WHERE (`main`.`Tenant`.`moveOutDate` >= ? AND `main`.`Tenant`.`moveOutDate` <= ?) LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.041] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Building`.`id` FROM `main`.`Building` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.042] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Flat`.`id` FROM `main`.`Flat` WHERE 1=1 LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.044] Server  LOG     prisma:query "SELECT COUNT(*) FROM (SELECT `main`.`Flat`.`id` FROM `main`.`Flat` WHERE `main`.`Flat`.`isOccupied` = ? LIMIT ? OFFSET ?) AS `sub`"
+[00:55:43.047] Server  LOG     prisma:query "SELECT `main`.`ServiceRequest`.`id`, `main`.`ServiceRequest`.`tenantId`, `main`.`ServiceRequest`.`assignedToId`, `main`.`ServiceRequest`.`category`, `main`.`ServiceRequest`.`description`, `main`.`ServiceRequest`.`status`, `main`.`ServiceRequest`.`cost`, `main`.`ServiceRequest`.`createdAt`, `main`.`ServiceRequest`.`updatedAt` FROM `main`.`ServiceRequest` WHERE (`main`.`ServiceRequest`.`createdAt` >= ? AND `main`.`ServiceRequest`.`createdAt` <= ?) LIMIT ? OFFSET ?"
+[00:55:43.047] Server  LOG     prisma:query "SELECT `main`.`Tenant`.`id`, `main`.`Tenant`.`userId`, `main`.`Tenant`.`flatId`, `main`.`Tenant`.`moveInDate`, `main`.`Tenant`.`moveOutDate`, `main`.`Tenant`.`securityDeposit`, `main`.`Tenant`.`photo`, `main`.`Tenant`.`identityDocument`, `main`.`Tenant`.`identityType`, `main`.`Tenant`.`createdAt`, `main`.`Tenant`.`updatedAt` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:43.047] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:43.048] Server  LOG     prisma:query "SELECT `main`.`Building`.`id`, `main`.`Building`.`name`, `main`.`Building`.`address`, `main`.`Building`.`createdAt`, `main`.`Building`.`updatedAt` FROM `main`.`Building` WHERE `main`.`Building`.`id` IN (?) LIMIT ? OFFSET ?"
+[00:55:43.050] Server  LOG     prisma:query "SELECT `main`.`Flat`.`id`, `main`.`Flat`.`number`, `main`.`Flat`.`buildingId`, `main`.`Flat`.`rentAmount`, `main`.`Flat`.`isOccupied`, `main`.`Flat`.`createdAt`, `main`.`Flat`.`updatedAt` FROM `main`.`Flat` WHERE `main`.`Flat`.`isOccupied` = ? LIMIT ? OFFSET ?"
+[00:55:43.052] Server  LOG     prisma:query "SELECT SUM(`securityDeposit`) FROM (SELECT `main`.`Tenant`.`securityDeposit` FROM `main`.`Tenant` WHERE `main`.`Tenant`.`moveOutDate` IS NULL LIMIT ? OFFSET ?) AS `sub`"

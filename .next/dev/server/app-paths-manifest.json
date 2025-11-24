@@ -1,10 +1,21 @@
 {
+  "/api/analytics/route": "app/api/analytics/route.js",
   "/api/buildings/[id]/flats/route": "app/api/buildings/[id]/flats/route.js",
   "/api/buildings/route": "app/api/buildings/route.js",
+  "/api/rent/route": "app/api/rent/route.js",
+  "/api/requests/route": "app/api/requests/route.js",
+  "/api/tenants/[id]/family/route": "app/api/tenants/[id]/family/route.js",
+  "/api/tenants/[id]/route": "app/api/tenants/[id]/route.js",
   "/api/tenants/route": "app/api/tenants/route.js",
+  "/api/users/route": "app/api/users/route.js",
   "/dashboard/buildings/[id]/page": "app/dashboard/buildings/[id]/page.js",
   "/dashboard/buildings/page": "app/dashboard/buildings/page.js",
+  "/dashboard/maintenance/page": "app/dashboard/maintenance/page.js",
   "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/rent/page": "app/dashboard/rent/page.js",
+  "/dashboard/reports/page": "app/dashboard/reports/page.js",
+  "/dashboard/requests/page": "app/dashboard/requests/page.js",
+  "/dashboard/tenants/[id]/page": "app/dashboard/tenants/[id]/page.js",
   "/dashboard/tenants/page": "app/dashboard/tenants/page.js",
   "/page": "app/page.js"
 }
