@@ -10,7 +10,6 @@ import {
     Wrench,
     LogOut,
     Settings,
-    DollarSign,
     BarChart3
 } from 'lucide-react';
 import styles from './Sidebar.module.css';
@@ -32,8 +31,7 @@ export function Sidebar() {
         { name: 'Buildings', href: '/dashboard/buildings', icon: Building2 },
         { name: 'Tenants', href: '/dashboard/tenants', icon: Users },
         { name: 'Rent', href: '/dashboard/rent', icon: Banknote },
-        { name: 'Requests', href: '/dashboard/requests', icon: Wrench },
-        { name: 'Maintenance Costs', href: '/dashboard/maintenance', icon: DollarSign },
+        { name: 'Requests & Maintenance', href: '/dashboard/requests', icon: Wrench },
         { name: 'Reports & Analytics', href: '/dashboard/reports', icon: BarChart3 },
         { name: 'Users', href: '/dashboard/users', icon: Settings }, // Admin only ideally
     ];

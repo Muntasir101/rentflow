@@ -46,7 +46,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wrench$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wrench$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/wrench.js [app-ssr] (ecmascript) <export default as Wrench>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$log$2d$out$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__LogOut$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/log-out.js [app-ssr] (ecmascript) <export default as LogOut>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$settings$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Settings$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/settings.js [app-ssr] (ecmascript) <export default as Settings>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/dollar-sign.js [app-ssr] (ecmascript) <export default as DollarSign>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chart$2d$column$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__BarChart3$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chart-column.js [app-ssr] (ecmascript) <export default as BarChart3>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$Sidebar$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/app/components/Sidebar.module.css [app-ssr] (css module)");
 'use client';
@@ -89,14 +88,9 @@ function Sidebar() {
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$banknote$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Banknote$3e$__["Banknote"]
         },
         {
-            name: 'Requests',
+            name: 'Requests & Maintenance',
             href: '/dashboard/requests',
             icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$wrench$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Wrench$3e$__["Wrench"]
-        },
-        {
-            name: 'Maintenance Costs',
-            href: '/dashboard/maintenance',
-            icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__["DollarSign"]
         },
         {
             name: 'Reports & Analytics',
@@ -118,12 +112,12 @@ function Sidebar() {
                     children: "RentManager"
                 }, void 0, false, {
                     fileName: "[project]/app/components/Sidebar.tsx",
-                    lineNumber: 44,
+                    lineNumber: 42,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/Sidebar.tsx",
-                lineNumber: 43,
+                lineNumber: 41,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -139,26 +133,26 @@ function Sidebar() {
                                 size: 20
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Sidebar.tsx",
-                                lineNumber: 57,
+                                lineNumber: 55,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: item.name
                             }, void 0, false, {
                                 fileName: "[project]/app/components/Sidebar.tsx",
-                                lineNumber: 58,
+                                lineNumber: 56,
                                 columnNumber: 29
                             }, this)
                         ]
                     }, item.href, true, {
                         fileName: "[project]/app/components/Sidebar.tsx",
-                        lineNumber: 52,
+                        lineNumber: 50,
                         columnNumber: 25
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/app/components/Sidebar.tsx",
-                lineNumber: 47,
+                lineNumber: 45,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -171,31 +165,31 @@ function Sidebar() {
                             size: 20
                         }, void 0, false, {
                             fileName: "[project]/app/components/Sidebar.tsx",
-                            lineNumber: 66,
+                            lineNumber: 64,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: "Logout"
                         }, void 0, false, {
                             fileName: "[project]/app/components/Sidebar.tsx",
-                            lineNumber: 67,
+                            lineNumber: 65,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/components/Sidebar.tsx",
-                    lineNumber: 65,
+                    lineNumber: 63,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/components/Sidebar.tsx",
-                lineNumber: 64,
+                lineNumber: 62,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/components/Sidebar.tsx",
-        lineNumber: 42,
+        lineNumber: 40,
         columnNumber: 9
     }, this);
 }

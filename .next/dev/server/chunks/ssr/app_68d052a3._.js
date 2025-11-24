@@ -195,30 +195,49 @@ __turbopack_context__.v({
   "cardDetails": "requests-module__qDKJXq__cardDetails",
   "cardHeader": "requests-module__qDKJXq__cardHeader",
   "category": "requests-module__qDKJXq__category",
+  "categoryBadge": "requests-module__qDKJXq__categoryBadge",
   "completed": "requests-module__qDKJXq__completed",
   "container": "requests-module__qDKJXq__container",
   "cost": "requests-module__qDKJXq__cost",
+  "costAmount": "requests-module__qDKJXq__costAmount",
+  "costCell": "requests-module__qDKJXq__costCell",
+  "countBadge": "requests-module__qDKJXq__countBadge",
   "description": "requests-module__qDKJXq__description",
+  "descriptionCell": "requests-module__qDKJXq__descriptionCell",
   "detailLabel": "requests-module__qDKJXq__detailLabel",
   "detailRow": "requests-module__qDKJXq__detailRow",
+  "details": "requests-module__qDKJXq__details",
+  "detailsCell": "requests-module__qDKJXq__detailsCell",
+  "detailsContent": "requests-module__qDKJXq__detailsContent",
+  "detailsSummary": "requests-module__qDKJXq__detailsSummary",
   "empty": "requests-module__qDKJXq__empty",
   "filterActive": "requests-module__qDKJXq__filterActive",
   "filterBar": "requests-module__qDKJXq__filterBar",
   "filterButton": "requests-module__qDKJXq__filterButton",
   "filterGroup": "requests-module__qDKJXq__filterGroup",
   "filterLabel": "requests-module__qDKJXq__filterLabel",
+  "flatInfo": "requests-module__qDKJXq__flatInfo",
+  "footerLabel": "requests-module__qDKJXq__footerLabel",
+  "footerRow": "requests-module__qDKJXq__footerRow",
+  "footerTotal": "requests-module__qDKJXq__footerTotal",
   "form": "requests-module__qDKJXq__form",
   "formActions": "requests-module__qDKJXq__formActions",
   "grid": "requests-module__qDKJXq__grid",
   "header": "requests-module__qDKJXq__header",
+  "headerActions": "requests-module__qDKJXq__headerActions",
   "inProgress": "requests-module__qDKJXq__inProgress",
   "infoLabel": "requests-module__qDKJXq__infoLabel",
   "infoRow": "requests-module__qDKJXq__infoRow",
   "label": "requests-module__qDKJXq__label",
+  "nestedTable": "requests-module__qDKJXq__nestedTable",
+  "nestedTableWrapper": "requests-module__qDKJXq__nestedTableWrapper",
   "pending": "requests-module__qDKJXq__pending",
   "requestInfo": "requests-module__qDKJXq__requestInfo",
+  "searchBox": "requests-module__qDKJXq__searchBox",
+  "searchInput": "requests-module__qDKJXq__searchInput",
   "select": "requests-module__qDKJXq__select",
   "selectGroup": "requests-module__qDKJXq__selectGroup",
+  "sortButton": "requests-module__qDKJXq__sortButton",
   "statCard": "requests-module__qDKJXq__statCard",
   "statContent": "requests-module__qDKJXq__statContent",
   "statIcon": "requests-module__qDKJXq__statIcon",
@@ -226,9 +245,20 @@ __turbopack_context__.v({
   "statValue": "requests-module__qDKJXq__statValue",
   "statsGrid": "requests-module__qDKJXq__statsGrid",
   "status": "requests-module__qDKJXq__status",
+  "statusBadge": "requests-module__qDKJXq__statusBadge",
   "subtitle": "requests-module__qDKJXq__subtitle",
+  "table": "requests-module__qDKJXq__table",
+  "tableContainer": "requests-module__qDKJXq__tableContainer",
+  "tableRow": "requests-module__qDKJXq__tableRow",
   "textarea": "requests-module__qDKJXq__textarea",
   "title": "requests-module__qDKJXq__title",
+  "unassigned": "requests-module__qDKJXq__unassigned",
+  "userEmail": "requests-module__qDKJXq__userEmail",
+  "userInfo": "requests-module__qDKJXq__userInfo",
+  "userName": "requests-module__qDKJXq__userName",
+  "viewActive": "requests-module__qDKJXq__viewActive",
+  "viewButton": "requests-module__qDKJXq__viewButton",
+  "viewToggle": "requests-module__qDKJXq__viewToggle",
 });
 }),
 "[project]/app/dashboard/requests/page.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
@@ -251,6 +281,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/user.js [app-ssr] (ecmascript) <export default as User>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/dollar-sign.js [app-ssr] (ecmascript) <export default as DollarSign>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$funnel$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Filter$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/funnel.js [app-ssr] (ecmascript) <export default as Filter>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/search.js [app-ssr] (ecmascript) <export default as Search>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/download.js [app-ssr] (ecmascript) <export default as Download>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$list$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__List$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/list.js [app-ssr] (ecmascript) <export default as List>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$grid$2d$3x3$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid3x3$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/grid-3x3.js [app-ssr] (ecmascript) <export default as Grid3x3>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__ = __turbopack_context__.i("[project]/app/dashboard/requests/requests.module.css [app-ssr] (css module)");
 'use client';
 ;
@@ -261,6 +295,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests
 ;
 ;
 function RequestsPage() {
+    const [viewMode, setViewMode] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('requests');
     const [requests, setRequests] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
     const [tenants, setTenants] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
     const [staffUsers, setStaffUsers] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
@@ -269,6 +304,9 @@ function RequestsPage() {
     const [selectedRequest, setSelectedRequest] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [statusFilter, setStatusFilter] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('ALL');
+    const [searchTerm, setSearchTerm] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
+    const [sortBy, setSortBy] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('cost');
+    const [sortOrder, setSortOrder] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('desc');
     const [newRequest, setNewRequest] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])({
         tenantId: '',
         category: 'PLUMBING',
@@ -412,7 +450,7 @@ function RequestsPage() {
                     size: 16
                 }, void 0, false, {
                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                    lineNumber: 198,
+                    lineNumber: 227,
                     columnNumber: 36
                 }, this);
             case 'IN_PROGRESS':
@@ -420,7 +458,7 @@ function RequestsPage() {
                     size: 16
                 }, void 0, false, {
                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                    lineNumber: 199,
+                    lineNumber: 228,
                     columnNumber: 40
                 }, this);
             case 'COMPLETED':
@@ -428,7 +466,7 @@ function RequestsPage() {
                     size: 16
                 }, void 0, false, {
                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                    lineNumber: 200,
+                    lineNumber: 229,
                     columnNumber: 38
                 }, this);
             default:
@@ -436,14 +474,17 @@ function RequestsPage() {
                     size: 16
                 }, void 0, false, {
                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                    lineNumber: 201,
+                    lineNumber: 230,
                     columnNumber: 29
                 }, this);
         }
     };
     const filteredRequests = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
-        if (statusFilter === 'ALL') return requests;
-        return requests.filter((r)=>r.status === statusFilter);
+        let filtered = requests;
+        if (statusFilter !== 'ALL') {
+            filtered = filtered.filter((r)=>r.status === statusFilter);
+        }
+        return filtered;
     }, [
         requests,
         statusFilter
@@ -458,6 +499,103 @@ function RequestsPage() {
     }, [
         requests
     ]);
+    // Cost view calculations
+    const userCostSummaries = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
+        const userMap = new Map();
+        const requestsWithCosts = requests.filter((r)=>r.cost && r.cost > 0);
+        requestsWithCosts.forEach((request)=>{
+            if (!request.cost || request.cost <= 0) return;
+            const userId = request.tenant.user.id;
+            const flatInfo = request.tenant.flat ? `${request.tenant.flat.building.name} - ${request.tenant.flat.number}` : 'No Flat';
+            if (!userMap.has(userId)) {
+                userMap.set(userId, {
+                    userId,
+                    userName: request.tenant.user.name,
+                    userEmail: request.tenant.user.email,
+                    flatInfo,
+                    totalCost: 0,
+                    requestCount: 0,
+                    requests: []
+                });
+            }
+            const summary = userMap.get(userId);
+            summary.totalCost += request.cost;
+            summary.requestCount += 1;
+            summary.requests.push(request);
+        });
+        return Array.from(userMap.values());
+    }, [
+        requests
+    ]);
+    const filteredAndSortedSummaries = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
+        let filtered = userCostSummaries;
+        if (searchTerm) {
+            const searchLower = searchTerm.toLowerCase();
+            filtered = filtered.filter((summary)=>summary.userName.toLowerCase().includes(searchLower) || summary.userEmail.toLowerCase().includes(searchLower) || summary.flatInfo.toLowerCase().includes(searchLower));
+        }
+        if (statusFilter !== 'ALL') {
+            filtered = filtered.map((summary)=>({
+                    ...summary,
+                    requests: summary.requests.filter((r)=>r.status === statusFilter)
+                })).filter((summary)=>summary.requests.length > 0);
+        }
+        filtered = filtered.map((summary)=>({
+                ...summary,
+                totalCost: summary.requests.reduce((sum, r)=>sum + (r.cost || 0), 0),
+                requestCount: summary.requests.length
+            }));
+        filtered.sort((a, b)=>{
+            let comparison = 0;
+            switch(sortBy){
+                case 'name':
+                    comparison = a.userName.localeCompare(b.userName);
+                    break;
+                case 'cost':
+                    comparison = a.totalCost - b.totalCost;
+                    break;
+                case 'count':
+                    comparison = a.requestCount - b.requestCount;
+                    break;
+            }
+            return sortOrder === 'asc' ? comparison : -comparison;
+        });
+        return filtered;
+    }, [
+        userCostSummaries,
+        searchTerm,
+        statusFilter,
+        sortBy,
+        sortOrder
+    ]);
+    const grandTotal = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
+        return filteredAndSortedSummaries.reduce((sum, s)=>sum + s.totalCost, 0);
+    }, [
+        filteredAndSortedSummaries
+    ]);
+    const totalCostRequests = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMemo"])(()=>{
+        return filteredAndSortedSummaries.reduce((sum, s)=>sum + s.requestCount, 0);
+    }, [
+        filteredAndSortedSummaries
+    ]);
+    const handleSort = (field)=>{
+        if (sortBy === field) {
+            setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
+        } else {
+            setSortBy(field);
+            setSortOrder('desc');
+        }
+    };
+    const getStatusBadge = (status)=>{
+        const statusClass = status === 'COMPLETED' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].completed : status === 'IN_PROGRESS' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].inProgress : __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].pending;
+        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+            className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statusBadge} ${statusClass}`,
+            children: status.replace('_', ' ')
+        }, void 0, false, {
+            fileName: "[project]/app/dashboard/requests/page.tsx",
+            lineNumber: 352,
+            columnNumber: 13
+        }, this);
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].container,
         children: [
@@ -468,50 +606,125 @@ function RequestsPage() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].title,
-                                children: "Service Requests"
+                                children: "Service Requests & Maintenance"
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 223,
+                                lineNumber: 362,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].subtitle,
-                                children: "Manage maintenance and service requests"
+                                children: "Manage requests and track maintenance costs"
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 224,
+                                lineNumber: 363,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                        lineNumber: 222,
+                        lineNumber: 361,
                         columnNumber: 17
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
-                        onClick: ()=>setIsModalOpen(true),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].headerActions,
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], {
-                                size: 20,
-                                style: {
-                                    marginRight: '0.5rem'
-                                }
-                            }, void 0, false, {
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].viewToggle,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].viewButton} ${viewMode === 'requests' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].viewActive : ''}`,
+                                        onClick: ()=>setViewMode('requests'),
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$grid$2d$3x3$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Grid3x3$3e$__["Grid3x3"], {
+                                                size: 18
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 371,
+                                                columnNumber: 29
+                                            }, this),
+                                            "Requests"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 367,
+                                        columnNumber: 25
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                        className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].viewButton} ${viewMode === 'costs' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].viewActive : ''}`,
+                                        onClick: ()=>setViewMode('costs'),
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$list$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__List$3e$__["List"], {
+                                                size: 18
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 378,
+                                                columnNumber: 29
+                                            }, this),
+                                            "Costs"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 374,
+                                        columnNumber: 25
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 227,
+                                lineNumber: 366,
                                 columnNumber: 21
                             }, this),
-                            "New Request"
+                            viewMode === 'requests' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                onClick: ()=>setIsModalOpen(true),
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], {
+                                        size: 20,
+                                        style: {
+                                            marginRight: '0.5rem'
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 384,
+                                        columnNumber: 29
+                                    }, this),
+                                    "New Request"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 383,
+                                columnNumber: 25
+                            }, this),
+                            viewMode === 'costs' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
+                                onClick: ()=>window.print(),
+                                variant: "outline",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__["Download"], {
+                                        size: 18,
+                                        style: {
+                                            marginRight: '0.5rem'
+                                        }
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 390,
+                                        columnNumber: 29
+                                    }, this),
+                                    "Export"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 389,
+                                columnNumber: 25
+                            }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                        lineNumber: 226,
+                        lineNumber: 365,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                lineNumber: 221,
+                lineNumber: 360,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -530,12 +743,12 @@ function RequestsPage() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 236,
+                                    lineNumber: 401,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 235,
+                                lineNumber: 400,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -546,7 +759,7 @@ function RequestsPage() {
                                         children: "Total Requests"
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                                        lineNumber: 239,
+                                        lineNumber: 404,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -554,19 +767,19 @@ function RequestsPage() {
                                         children: stats.total
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                                        lineNumber: 240,
+                                        lineNumber: 405,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 238,
+                                lineNumber: 403,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                        lineNumber: 234,
+                        lineNumber: 399,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -582,12 +795,12 @@ function RequestsPage() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 245,
+                                    lineNumber: 410,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 244,
+                                lineNumber: 409,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -598,7 +811,7 @@ function RequestsPage() {
                                         children: "Pending"
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                                        lineNumber: 248,
+                                        lineNumber: 413,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -606,19 +819,19 @@ function RequestsPage() {
                                         children: stats.pending
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                                        lineNumber: 249,
+                                        lineNumber: 414,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 247,
+                                lineNumber: 412,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                        lineNumber: 243,
+                        lineNumber: 408,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -634,12 +847,12 @@ function RequestsPage() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 254,
+                                    lineNumber: 419,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 253,
+                                lineNumber: 418,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -650,7 +863,7 @@ function RequestsPage() {
                                         children: "In Progress"
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                                        lineNumber: 257,
+                                        lineNumber: 422,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -658,19 +871,19 @@ function RequestsPage() {
                                         children: stats.inProgress
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                                        lineNumber: 258,
+                                        lineNumber: 423,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 256,
+                                lineNumber: 421,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                        lineNumber: 252,
+                        lineNumber: 417,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -686,12 +899,12 @@ function RequestsPage() {
                                     size: 24
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 263,
+                                    lineNumber: 428,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 262,
+                                lineNumber: 427,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -702,7 +915,7 @@ function RequestsPage() {
                                         children: "Completed"
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                                        lineNumber: 266,
+                                        lineNumber: 431,
                                         columnNumber: 25
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -710,95 +923,235 @@ function RequestsPage() {
                                         children: stats.completed
                                     }, void 0, false, {
                                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                                        lineNumber: 267,
+                                        lineNumber: 432,
                                         columnNumber: 25
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 265,
+                                lineNumber: 430,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                        lineNumber: 261,
+                        lineNumber: 426,
                         columnNumber: 17
-                    }, this)
+                    }, this),
+                    viewMode === 'costs' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statCard,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statIcon,
+                                        style: {
+                                            background: 'rgba(236, 72, 153, 0.1)',
+                                            color: '#ec4899'
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$dollar$2d$sign$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__DollarSign$3e$__["DollarSign"], {
+                                            size: 24
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                            lineNumber: 439,
+                                            columnNumber: 33
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 438,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statContent,
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statLabel,
+                                                children: "Total Cost"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 442,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statValue,
+                                                children: [
+                                                    "$",
+                                                    grandTotal.toLocaleString()
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 443,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 441,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 437,
+                                columnNumber: 25
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statCard,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statIcon,
+                                        style: {
+                                            background: 'rgba(16, 185, 129, 0.1)',
+                                            color: 'var(--success)'
+                                        },
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"], {
+                                            size: 24
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                            lineNumber: 448,
+                                            columnNumber: 33
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 447,
+                                        columnNumber: 29
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statContent,
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statLabel,
+                                                children: "Tenants with Costs"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 451,
+                                                columnNumber: 33
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].statValue,
+                                                children: filteredAndSortedSummaries.length
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 452,
+                                                columnNumber: 33
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 450,
+                                        columnNumber: 29
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 446,
+                                columnNumber: 25
+                            }, this)
+                        ]
+                    }, void 0, true)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                lineNumber: 233,
+                lineNumber: 398,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterBar,
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterGroup,
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$funnel$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Filter$3e$__["Filter"], {
-                            size: 18
-                        }, void 0, false, {
-                            fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 275,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterLabel,
-                            children: "Filter by Status:"
-                        }, void 0, false, {
-                            fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 276,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterButton} ${statusFilter === 'ALL' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterActive : ''}`,
-                            onClick: ()=>setStatusFilter('ALL'),
-                            children: "All"
-                        }, void 0, false, {
-                            fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 277,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterButton} ${statusFilter === 'PENDING' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterActive : ''}`,
-                            onClick: ()=>setStatusFilter('PENDING'),
-                            children: "Pending"
-                        }, void 0, false, {
-                            fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 283,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterButton} ${statusFilter === 'IN_PROGRESS' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterActive : ''}`,
-                            onClick: ()=>setStatusFilter('IN_PROGRESS'),
-                            children: "In Progress"
-                        }, void 0, false, {
-                            fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 289,
-                            columnNumber: 21
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                            className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterButton} ${statusFilter === 'COMPLETED' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterActive : ''}`,
-                            onClick: ()=>setStatusFilter('COMPLETED'),
-                            children: "Completed"
-                        }, void 0, false, {
-                            fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 295,
-                            columnNumber: 21
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/app/dashboard/requests/page.tsx",
-                    lineNumber: 274,
-                    columnNumber: 17
-                }, this)
-            }, void 0, false, {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterGroup,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$funnel$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Filter$3e$__["Filter"], {
+                                size: 18
+                            }, void 0, false, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 462,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterLabel,
+                                children: "Filter by Status:"
+                            }, void 0, false, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 463,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterButton} ${statusFilter === 'ALL' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterActive : ''}`,
+                                onClick: ()=>setStatusFilter('ALL'),
+                                children: "All"
+                            }, void 0, false, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 464,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterButton} ${statusFilter === 'PENDING' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterActive : ''}`,
+                                onClick: ()=>setStatusFilter('PENDING'),
+                                children: "Pending"
+                            }, void 0, false, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 470,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterButton} ${statusFilter === 'IN_PROGRESS' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterActive : ''}`,
+                                onClick: ()=>setStatusFilter('IN_PROGRESS'),
+                                children: "In Progress"
+                            }, void 0, false, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 476,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterButton} ${statusFilter === 'COMPLETED' ? __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].filterActive : ''}`,
+                                onClick: ()=>setStatusFilter('COMPLETED'),
+                                children: "Completed"
+                            }, void 0, false, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 482,
+                                columnNumber: 21
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                        lineNumber: 461,
+                        columnNumber: 17
+                    }, this),
+                    viewMode === 'costs' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].searchBox,
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
+                                size: 18
+                            }, void 0, false, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 491,
+                                columnNumber: 25
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                type: "text",
+                                placeholder: "Search by name, email, or flat...",
+                                value: searchTerm,
+                                onChange: (e)=>setSearchTerm(e.target.value),
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].searchInput
+                            }, void 0, false, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 492,
+                                columnNumber: 25
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                        lineNumber: 490,
+                        columnNumber: 21
+                    }, this)
+                ]
+            }, void 0, true, {
                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                lineNumber: 273,
+                lineNumber: 460,
                 columnNumber: 13
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            viewMode === 'requests' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].grid,
                 children: [
                     filteredRequests.map((request)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -814,21 +1167,21 @@ function RequestsPage() {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 310,
-                                                    columnNumber: 33
+                                                    lineNumber: 510,
+                                                    columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: request.category
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 311,
-                                                    columnNumber: 33
+                                                    lineNumber: 511,
+                                                    columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 309,
-                                            columnNumber: 29
+                                            lineNumber: 509,
+                                            columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: `${__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].status} ${getStatusColor(request.status)}`,
@@ -838,28 +1191,28 @@ function RequestsPage() {
                                                     children: request.status.replace('_', ' ')
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 315,
-                                                    columnNumber: 33
+                                                    lineNumber: 515,
+                                                    columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 313,
-                                            columnNumber: 29
+                                            lineNumber: 513,
+                                            columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 308,
-                                    columnNumber: 25
+                                    lineNumber: 508,
+                                    columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].description,
                                     children: request.description
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 319,
-                                    columnNumber: 25
+                                    lineNumber: 519,
+                                    columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].cardDetails,
@@ -871,21 +1224,21 @@ function RequestsPage() {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 323,
-                                                    columnNumber: 33
+                                                    lineNumber: 523,
+                                                    columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: request.tenant.user.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 324,
-                                                    columnNumber: 33
+                                                    lineNumber: 524,
+                                                    columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 322,
-                                            columnNumber: 29
+                                            lineNumber: 522,
+                                            columnNumber: 33
                                         }, this),
                                         request.tenant.flat && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].detailRow,
@@ -895,8 +1248,8 @@ function RequestsPage() {
                                                     children: "Flat:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 328,
-                                                    columnNumber: 37
+                                                    lineNumber: 528,
+                                                    columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: [
@@ -906,14 +1259,14 @@ function RequestsPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 329,
-                                                    columnNumber: 37
+                                                    lineNumber: 529,
+                                                    columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 327,
-                                            columnNumber: 33
+                                            lineNumber: 527,
+                                            columnNumber: 37
                                         }, this),
                                         request.assignedTo && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].detailRow,
@@ -923,22 +1276,22 @@ function RequestsPage() {
                                                     children: "Assigned to:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 334,
-                                                    columnNumber: 37
+                                                    lineNumber: 534,
+                                                    columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].assignedTo,
                                                     children: request.assignedTo.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 335,
-                                                    columnNumber: 37
+                                                    lineNumber: 535,
+                                                    columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 333,
-                                            columnNumber: 33
+                                            lineNumber: 533,
+                                            columnNumber: 37
                                         }, this),
                                         request.cost && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].detailRow,
@@ -947,8 +1300,8 @@ function RequestsPage() {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 340,
-                                                    columnNumber: 37
+                                                    lineNumber: 540,
+                                                    columnNumber: 41
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].cost,
@@ -958,14 +1311,14 @@ function RequestsPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 341,
-                                                    columnNumber: 37
+                                                    lineNumber: 541,
+                                                    columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 339,
-                                            columnNumber: 33
+                                            lineNumber: 539,
+                                            columnNumber: 37
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].detailRow,
@@ -974,27 +1327,27 @@ function RequestsPage() {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 345,
-                                                    columnNumber: 33
+                                                    lineNumber: 545,
+                                                    columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: new Date(request.createdAt).toLocaleDateString()
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 346,
-                                                    columnNumber: 33
+                                                    lineNumber: 546,
+                                                    columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 344,
-                                            columnNumber: 29
+                                            lineNumber: 544,
+                                            columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 321,
-                                    columnNumber: 25
+                                    lineNumber: 521,
+                                    columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].cardActions,
@@ -1008,8 +1361,8 @@ function RequestsPage() {
                                                     children: "Start Work"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 354,
-                                                    columnNumber: 41
+                                                    lineNumber: 554,
+                                                    columnNumber: 45
                                                 }, this),
                                                 request.status === 'IN_PROGRESS' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                                     variant: "outline",
@@ -1018,8 +1371,8 @@ function RequestsPage() {
                                                     children: "Complete"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                    lineNumber: 363,
-                                                    columnNumber: 41
+                                                    lineNumber: 563,
+                                                    columnNumber: 45
                                                 }, this)
                                             ]
                                         }, void 0, true),
@@ -1030,20 +1383,20 @@ function RequestsPage() {
                                             children: request.status === 'COMPLETED' ? 'View Details' : 'Manage'
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 373,
-                                            columnNumber: 29
+                                            lineNumber: 573,
+                                            columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 350,
-                                    columnNumber: 25
+                                    lineNumber: 550,
+                                    columnNumber: 29
                                 }, this)
                             ]
                         }, request.id, true, {
                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 307,
-                            columnNumber: 21
+                            lineNumber: 507,
+                            columnNumber: 25
                         }, this)),
                     filteredRequests.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].empty,
@@ -1052,8 +1405,8 @@ function RequestsPage() {
                                 size: 48
                             }, void 0, false, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 385,
-                                columnNumber: 25
+                                lineNumber: 585,
+                                columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: [
@@ -1063,20 +1416,473 @@ function RequestsPage() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                lineNumber: 386,
-                                columnNumber: 25
+                                lineNumber: 586,
+                                columnNumber: 29
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/dashboard/requests/page.tsx",
-                        lineNumber: 384,
-                        columnNumber: 21
+                        lineNumber: 584,
+                        columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                lineNumber: 305,
-                columnNumber: 13
+                lineNumber: 505,
+                columnNumber: 17
+            }, this),
+            viewMode === 'costs' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].tableContainer,
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].table,
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].sortButton,
+                                            onClick: ()=>handleSort('name'),
+                                            children: [
+                                                "Tenant Name",
+                                                sortBy === 'name' && (sortOrder === 'asc' ? ' ↑' : ' ↓')
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                            lineNumber: 599,
+                                            columnNumber: 37
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 598,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                        children: "Flat"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 607,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].sortButton,
+                                            onClick: ()=>handleSort('count'),
+                                            children: [
+                                                "Requests",
+                                                sortBy === 'count' && (sortOrder === 'asc' ? ' ↑' : ' ↓')
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                            lineNumber: 609,
+                                            columnNumber: 37
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 608,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].sortButton,
+                                            onClick: ()=>handleSort('cost'),
+                                            children: [
+                                                "Total Cost",
+                                                sortBy === 'cost' && (sortOrder === 'asc' ? ' ↑' : ' ↓')
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                            lineNumber: 618,
+                                            columnNumber: 37
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 617,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                        children: "Details"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 626,
+                                        columnNumber: 33
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 597,
+                                columnNumber: 29
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                            lineNumber: 596,
+                            columnNumber: 25
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                            children: [
+                                filteredAndSortedSummaries.map((summary)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].tableRow,
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].userInfo,
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].userName,
+                                                            children: summary.userName
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                            lineNumber: 634,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].userEmail,
+                                                            children: summary.userEmail
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                            lineNumber: 635,
+                                                            columnNumber: 45
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                    lineNumber: 633,
+                                                    columnNumber: 41
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 632,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].flatInfo,
+                                                    children: summary.flatInfo
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                    lineNumber: 639,
+                                                    columnNumber: 41
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 638,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].countBadge,
+                                                    children: summary.requestCount
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                    lineNumber: 642,
+                                                    columnNumber: 41
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 641,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].costAmount,
+                                                    children: [
+                                                        "$",
+                                                        summary.totalCost.toLocaleString('en-US', {
+                                                            minimumFractionDigits: 2,
+                                                            maximumFractionDigits: 2
+                                                        })
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                    lineNumber: 645,
+                                                    columnNumber: 41
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 644,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].detailsCell,
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
+                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].details,
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
+                                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].detailsSummary,
+                                                            children: "View Requests"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                            lineNumber: 651,
+                                                            columnNumber: 45
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].detailsContent,
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].nestedTableWrapper,
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                                                                    className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].nestedTable,
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                                                children: [
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                                        children: "Date"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                        lineNumber: 657,
+                                                                                        columnNumber: 65
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                                        children: "Category"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                        lineNumber: 658,
+                                                                                        columnNumber: 65
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                                        children: "Description"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                        lineNumber: 659,
+                                                                                        columnNumber: 65
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                                        children: "Status"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                        lineNumber: 660,
+                                                                                        columnNumber: 65
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                                        children: "Assigned To"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                        lineNumber: 661,
+                                                                                        columnNumber: 65
+                                                                                    }, this),
+                                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                                        children: "Cost"
+                                                                                    }, void 0, false, {
+                                                                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                        lineNumber: 662,
+                                                                                        columnNumber: 65
+                                                                                    }, this)
+                                                                                ]
+                                                                            }, void 0, true, {
+                                                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                lineNumber: 656,
+                                                                                columnNumber: 61
+                                                                            }, this)
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                            lineNumber: 655,
+                                                                            columnNumber: 57
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                                                                            children: summary.requests.map((request)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                                                    children: [
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                                            children: new Date(request.createdAt).toLocaleDateString()
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                            lineNumber: 668,
+                                                                                            columnNumber: 69
+                                                                                        }, this),
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].categoryBadge,
+                                                                                                children: request.category
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                                lineNumber: 672,
+                                                                                                columnNumber: 73
+                                                                                            }, this)
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                            lineNumber: 671,
+                                                                                            columnNumber: 69
+                                                                                        }, this),
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].descriptionCell,
+                                                                                            title: request.description,
+                                                                                            children: request.description
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                            lineNumber: 676,
+                                                                                            columnNumber: 69
+                                                                                        }, this),
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                                            children: getStatusBadge(request.status)
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                            lineNumber: 679,
+                                                                                            columnNumber: 69
+                                                                                        }, this),
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                                            children: request.assignedTo ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].assignedTo,
+                                                                                                children: request.assignedTo.name
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                                lineNumber: 682,
+                                                                                                columnNumber: 77
+                                                                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].unassigned,
+                                                                                                children: "Unassigned"
+                                                                                            }, void 0, false, {
+                                                                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                                lineNumber: 686,
+                                                                                                columnNumber: 77
+                                                                                            }, this)
+                                                                                        }, void 0, false, {
+                                                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                            lineNumber: 680,
+                                                                                            columnNumber: 69
+                                                                                        }, this),
+                                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                                            className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].costCell,
+                                                                                            children: [
+                                                                                                "$",
+                                                                                                request.cost?.toLocaleString('en-US', {
+                                                                                                    minimumFractionDigits: 2,
+                                                                                                    maximumFractionDigits: 2
+                                                                                                })
+                                                                                            ]
+                                                                                        }, void 0, true, {
+                                                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                            lineNumber: 689,
+                                                                                            columnNumber: 69
+                                                                                        }, this)
+                                                                                    ]
+                                                                                }, request.id, true, {
+                                                                                    fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                                    lineNumber: 667,
+                                                                                    columnNumber: 65
+                                                                                }, this))
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                            lineNumber: 665,
+                                                                            columnNumber: 57
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                    lineNumber: 654,
+                                                                    columnNumber: 53
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                                lineNumber: 653,
+                                                                columnNumber: 49
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                            lineNumber: 652,
+                                                            columnNumber: 45
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                    lineNumber: 650,
+                                                    columnNumber: 41
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                                lineNumber: 649,
+                                                columnNumber: 37
+                                            }, this)
+                                        ]
+                                    }, summary.userId, true, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 631,
+                                        columnNumber: 33
+                                    }, this)),
+                                filteredAndSortedSummaries.length === 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                        colSpan: 5,
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].empty,
+                                        children: "No maintenance costs found"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 704,
+                                        columnNumber: 37
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/app/dashboard/requests/page.tsx",
+                                    lineNumber: 703,
+                                    columnNumber: 33
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                            lineNumber: 629,
+                            columnNumber: 25
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tfoot", {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].footerRow,
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                        colSpan: 3,
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].footerLabel,
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                            children: "Grand Total"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                            lineNumber: 713,
+                                            columnNumber: 37
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 712,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                        className: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$dashboard$2f$requests$2f$requests$2e$module$2e$css__$5b$app$2d$ssr$5d$__$28$css__module$29$__["default"].footerTotal,
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                            children: [
+                                                "$",
+                                                grandTotal.toLocaleString('en-US', {
+                                                    minimumFractionDigits: 2,
+                                                    maximumFractionDigits: 2
+                                                })
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                                            lineNumber: 716,
+                                            columnNumber: 37
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 715,
+                                        columnNumber: 33
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {}, void 0, false, {
+                                        fileName: "[project]/app/dashboard/requests/page.tsx",
+                                        lineNumber: 718,
+                                        columnNumber: 33
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/dashboard/requests/page.tsx",
+                                lineNumber: 711,
+                                columnNumber: 29
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/dashboard/requests/page.tsx",
+                            lineNumber: 710,
+                            columnNumber: 25
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/app/dashboard/requests/page.tsx",
+                    lineNumber: 595,
+                    columnNumber: 21
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/dashboard/requests/page.tsx",
+                lineNumber: 594,
+                columnNumber: 17
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$Modal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Modal"], {
                 isOpen: isModalOpen,
@@ -1094,7 +1900,7 @@ function RequestsPage() {
                                     children: "Tenant"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 399,
+                                    lineNumber: 733,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1111,7 +1917,7 @@ function RequestsPage() {
                                             children: "Select Tenant..."
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 406,
+                                            lineNumber: 740,
                                             columnNumber: 29
                                         }, this),
                                         tenants.map((t)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1123,19 +1929,19 @@ function RequestsPage() {
                                                 ]
                                             }, t.id, true, {
                                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                lineNumber: 408,
+                                                lineNumber: 742,
                                                 columnNumber: 33
                                             }, this))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 400,
+                                    lineNumber: 734,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 398,
+                            lineNumber: 732,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1146,7 +1952,7 @@ function RequestsPage() {
                                     children: "Category"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 416,
+                                    lineNumber: 750,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1162,7 +1968,7 @@ function RequestsPage() {
                                             children: "Plumbing"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 422,
+                                            lineNumber: 756,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1170,7 +1976,7 @@ function RequestsPage() {
                                             children: "Electrical"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 423,
+                                            lineNumber: 757,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1178,7 +1984,7 @@ function RequestsPage() {
                                             children: "Cleaning"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 424,
+                                            lineNumber: 758,
                                             columnNumber: 29
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1186,19 +1992,19 @@ function RequestsPage() {
                                             children: "Other"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 425,
+                                            lineNumber: 759,
                                             columnNumber: 29
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 417,
+                                    lineNumber: 751,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 415,
+                            lineNumber: 749,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1209,7 +2015,7 @@ function RequestsPage() {
                                     children: "Description"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 430,
+                                    lineNumber: 764,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -1224,13 +2030,13 @@ function RequestsPage() {
                                     placeholder: "Describe the issue..."
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 431,
+                                    lineNumber: 765,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 429,
+                            lineNumber: 763,
                             columnNumber: 21
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1243,7 +2049,7 @@ function RequestsPage() {
                                     children: "Cancel"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 442,
+                                    lineNumber: 776,
                                     columnNumber: 25
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1252,24 +2058,24 @@ function RequestsPage() {
                                     children: "Submit Request"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 445,
+                                    lineNumber: 779,
                                     columnNumber: 25
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 441,
+                            lineNumber: 775,
                             columnNumber: 21
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                    lineNumber: 397,
+                    lineNumber: 731,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                lineNumber: 392,
+                lineNumber: 726,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$Modal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Modal"], {
@@ -1299,20 +2105,20 @@ function RequestsPage() {
                                             children: "Category:"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 466,
+                                            lineNumber: 800,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: selectedRequest.category
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 467,
+                                            lineNumber: 801,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 465,
+                                    lineNumber: 799,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1323,20 +2129,20 @@ function RequestsPage() {
                                             children: "Description:"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 470,
+                                            lineNumber: 804,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: selectedRequest.description
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 471,
+                                            lineNumber: 805,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 469,
+                                    lineNumber: 803,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1347,26 +2153,26 @@ function RequestsPage() {
                                             children: "Tenant:"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 474,
+                                            lineNumber: 808,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: selectedRequest.tenant.user.name
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 475,
+                                            lineNumber: 809,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 473,
+                                    lineNumber: 807,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 464,
+                            lineNumber: 798,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1377,7 +2183,7 @@ function RequestsPage() {
                                     children: "Status"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 480,
+                                    lineNumber: 814,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1393,7 +2199,7 @@ function RequestsPage() {
                                             children: "Pending"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 486,
+                                            lineNumber: 820,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1401,7 +2207,7 @@ function RequestsPage() {
                                             children: "In Progress"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 487,
+                                            lineNumber: 821,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1409,19 +2215,19 @@ function RequestsPage() {
                                             children: "Completed"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 488,
+                                            lineNumber: 822,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 481,
+                                    lineNumber: 815,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 479,
+                            lineNumber: 813,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1432,7 +2238,7 @@ function RequestsPage() {
                                     children: "Assign To"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 493,
+                                    lineNumber: 827,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -1448,7 +2254,7 @@ function RequestsPage() {
                                             children: "Unassigned"
                                         }, void 0, false, {
                                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                                            lineNumber: 499,
+                                            lineNumber: 833,
                                             columnNumber: 33
                                         }, this),
                                         staffUsers.map((user)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -1461,19 +2267,19 @@ function RequestsPage() {
                                                 ]
                                             }, user.id, true, {
                                                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                                                lineNumber: 501,
+                                                lineNumber: 835,
                                                 columnNumber: 37
                                             }, this))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 494,
+                                    lineNumber: 828,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 492,
+                            lineNumber: 826,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$Input$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Input"], {
@@ -1489,7 +2295,7 @@ function RequestsPage() {
                             placeholder: "0.00"
                         }, void 0, false, {
                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 508,
+                            lineNumber: 842,
                             columnNumber: 25
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1510,7 +2316,7 @@ function RequestsPage() {
                                     children: "Cancel"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 519,
+                                    lineNumber: 853,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
@@ -1519,30 +2325,30 @@ function RequestsPage() {
                                     children: "Update Request"
                                 }, void 0, false, {
                                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                                    lineNumber: 526,
+                                    lineNumber: 860,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/dashboard/requests/page.tsx",
-                            lineNumber: 518,
+                            lineNumber: 852,
                             columnNumber: 25
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/dashboard/requests/page.tsx",
-                    lineNumber: 463,
+                    lineNumber: 797,
                     columnNumber: 21
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/dashboard/requests/page.tsx",
-                lineNumber: 453,
+                lineNumber: 787,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/dashboard/requests/page.tsx",
-        lineNumber: 220,
+        lineNumber: 359,
         columnNumber: 9
     }, this);
 }
